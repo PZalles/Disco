@@ -12,8 +12,8 @@
             position: absolute;
             top: 0;
             left: 0;
-            background-color: darkred;
-            animation: disco 2s linear infinite;
+            background-color: transparent;
+            animation: disco 4s linear infinite;
         }
 
         div:nth-child(2) {
@@ -101,27 +101,92 @@
             animation-direction: reverse;
         }
 
-        div:nth-child(21) {}
+        div:nth-child(21) {
+            animation: disco2 4s linear infinite;
+        }
 
-        div:nth-child(22) {}
+        div:nth-child(22) {
+            animation: disco2 4s .2s linear infinite;
+        }
 
-        div:nth-child(23) {}
+        div:nth-child(23) {
+            animation: disco2 4s .4s linear infinite;
+        }
 
-        div:nth-child(24) {}
+        div:nth-child(24) {
+            animation: disco2 4s .6s linear infinite;
+        }
 
-        div:nth-child(25) {}
+        div:nth-child(25) {
+            animation: disco2 4s .8s linear infinite;
+        }
 
-        div:nth-child(26) {}
+        div:nth-child(26) {
+            animation: disco2 4s 1s linear infinite;
+        }
 
-        div:nth-child(27) {}
+        div:nth-child(27) {
+            animation: disco2 4s 1.2s linear infinite;
+        }
 
-        div:nth-child(28) {}
+        div:nth-child(28) {
+            animation: disco2 4s 1.4s linear infinite;
+        }
 
-        div:nth-child(29) {}
+        div:nth-child(29) {
+            animation: disco2 4s 1.6s linear infinite;
+        }
 
-        div:nth-child(30) {}
+        div:nth-child(30) {
+            animation: disco2 4s 1.8s linear infinite;
+        }
+
+        div:nth-child(31) {
+            animation: disco2 4s linear infinite reverse;
+        }
+
+        div:nth-child(32) {
+            animation: disco2 4s .2s linear infinite reverse;
+        }
+
+        div:nth-child(33) {
+            animation: disco2 4s .4s linear infinite reverse;
+        }
+
+        div:nth-child(34) {
+            animation: disco2 4s .6s linear infinite reverse;
+        }
+
+        div:nth-child(35) {
+            animation: disco2 4s .8s linear infinite reverse;
+        }
+
+        div:nth-child(36) {
+            animation: disco2 4s 1s linear infinite reverse;
+        }
+
+        div:nth-child(37) {
+            animation: disco2 4s 1.2s linear infinite reverse;
+        }
+
+        div:nth-child(38) {
+            animation: disco2 4s 1.4s linear infinite reverse;
+        }
+
+        div:nth-child(39) {
+            animation: disco2 4s 1.6s linear infinite reverse;
+        }
+
+        div:nth-child(40) {
+            animation: disco2 4s 1.8s linear infinite reverse;
+        }
 
         @keyframes disco {
+            0% {
+                top: 0;
+                left: 0;
+                background-color: darkred;
+            }
 
             33.3% {
                 top: 0;
@@ -133,6 +198,12 @@
                 top: calc(100% - 80px);
                 left: calc(50% - 40px);
                 background-color: orange;
+            }
+
+            100% {
+                top: 0;
+                left: 0;
+                background-color: darkred;
             }
         }
 
@@ -153,6 +224,12 @@
                 top: 0;
                 left: calc(50% - 40px);
                 background-color: lightskyblue;
+            }
+
+            100% {
+                top: calc(100% - 80px);
+                left: 0;
+                background-color: darkblue;
             }
         }
     </style>
